@@ -15,13 +15,3 @@
     $("#back").click(function(){
       $(".block").animate({left: '0%'}, 2000);
     });
-
-  });
-var rotation = function (){
-   jQuery("#rotateImg").rotate({
-      angle:0, 
-      animateTo:360, 
-      callback: rotation
-   });
-}
-rotation();
