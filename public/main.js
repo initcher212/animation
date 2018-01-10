@@ -15,3 +15,4 @@
     $("#back").click(function(){
       $(".block").animate({left: '0%'}, 2000);
     });
+  });
